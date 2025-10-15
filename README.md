@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -64,3 +65,44 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+=======
+# Stripe-Payment-Integration-In-Laravel
+# 💳 Laravel Stripe Payment Integration
+
+A ready-to-use **Stripe Payment Integration** built with **Laravel**, **Stripe.js (v3)**, and **Bootstrap 5**.  
+This project demonstrates how to implement secure one-time payments using Stripe’s **PaymentIntent API**, including **3D Secure (SCA)** authentication support.
+
+---
+
+## 🚀 Features
+
+- ✅ **Laravel 10+ compatible**
+- 🔒 Secure card payments using **Stripe PaymentIntent**
+- 🧾 Supports **3D Secure (Strong Customer Authentication)**
+- 👤 Automatically creates or retrieves Stripe Customers
+- 🧠 Validates and handles errors via AJAX
+- 🎨 Clean UI with **Bootstrap 5**
+- 🔔 Real-time toast notifications via **Notyf.js**
+- ⚡ Lightweight, responsive, and production-ready
+
+---
+
+## 🧰 Tech Stack
+
+| Component | Description |
+|------------|-------------|
+| **Backend** | Laravel (PHP 8+) |
+| **Frontend** | HTML, Bootstrap 5, Stripe.js |
+| **Payment Gateway** | Stripe API (v3) |
+| **Notifications** | Notyf.js |
+| **AJAX** | Fetch API with CSRF protection |
+
+---
+
+## ⚙️ Installation
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/your-username/laravel-stripe-integration.git
+cd laravel-stripe-integration
+>>>>>>> f2441fe1534caa82304fb5fb10277b31123f401e
